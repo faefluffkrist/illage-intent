@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.faefluffkrist.illagerhostilities.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "MobAccessor",
+    "WitchMixin",
+    "ProjectileAimMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

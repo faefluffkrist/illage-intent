@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "illager_hostilities",
+  "version": "${version}",
+  "name": "Ill(age) Intent",
+  "description": "Illagers and their allies hunt undead, creepers, spiders, and silverfish.",
+  "authors": [
+    "faefluffkrist"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.faefluffkrist.illagerhostilities.IllagerHostilities"
+    ],
+    "modmenu": [
+      "com.faefluffkrist.illagerhostilities.configscreen.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "illager-hostilities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "friendsandfoes": "*",
+    "takesapillage": "*"
+  },
+  "icon": "assets/illager_hostilities/icon.png"
+}
